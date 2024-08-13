@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header.jumbotron {
+    margin-bottom: 0;
+    background-color: #386FA4 !important;
+
+}
+
+
+/*navbar*/
+.navbar {
+    background-color: #133C55 !important;
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #91E5F6 !important;
+}
+/* Cambiar el color del enlace activo en la navbar */
+.navbar-nav .nav-link.active {
+    color: #59A5D8 !important;
+    font-weight: bold;
+}
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+    background-color: #133C55;
+    color: #91E5F6;
+}
+
+main {
+    flex: 1;
+}
+
