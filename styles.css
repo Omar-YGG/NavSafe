@@ -1,48 +1,53 @@
+/* Estilos generales del cuerpo */
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    font-family: Arial, sans-serif; /* Fuente general del sitio */
+    display: flex; /* Utiliza Flexbox para el layout */
+    flex-direction: column; /* Organiza el contenido en una columna */
+    min-height: 100vh; /* Asegura que el contenido mínimo ocupe toda la altura de la vista */
 }
 
+/* Estilos para el encabezado principal */
 header.jumbotron {
-    margin-bottom: 0;
-    background-color: #386FA4 !important;
+    margin-bottom: 0; /* Elimina el margen inferior del jumbotron */
+    background-color: #386FA4 !important; /* Color de fondo del encabezado */
 }
 
-/*navbar*/
+/* Estilos para la barra de navegación */
 .navbar {
-    background-color: #133C55 !important;
-    color: white !important;
-    
+    background-color: #133C55 !important; /* Color de fondo de la barra de navegación */
+    color: white !important; /* Color del texto en la barra de navegación */
 }
+
+/* Estilos para los enlaces de navegación en la barra */
 .navbar-light .navbar-nav .nav-link {
-    color: #91E5F6 !important;
-    margin-block: 5px;
-    border-radius: 20%;
+    color: #91E5F6 !important; /* Color de los enlaces en la barra de navegación */
+    margin-block: 5px; /* Margen vertical para los enlaces */
+    border-radius: 20%; /* Bordes redondeados para los enlaces */
 }
-/* Cambiar el color del enlace activo en la navbar */
+
+/* Estilo para el enlace activo en la barra de navegación */
 .navbar-nav .nav-link.active {
-    color: #59A5D8 !important;
-    font-weight: bold;
+    color: #59A5D8 !important; /* Color del enlace activo */
+    font-weight: bold; /* Negrita para el enlace activo */
 }
 
-
+/* Estilos para el pie de página */
 footer {
-    bottom: 0;
-    width: 100%;
-    position: relative;
-    padding: 20px 0;
-    background-color: #133C55;
-    color: #91E5F6;
+    bottom: 0; /* Alinea el pie de página al fondo */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    position: relative; /* Posición relativa para poder ajustar su ubicación */
+    padding: 20px 0; /* Espaciado superior e inferior del pie de página */
+    background-color: #133C55; /* Color de fondo del pie de página */
+    color: #91E5F6; /* Color del texto en el pie de página */
 }
 
+/* Estilos para el contenido principal */
 main {
-    flex: 1;
+    flex: 1; /* Permite que el contenido principal crezca para llenar el espacio disponible */
 }
 
+/* Estilos para los enlaces en la barra de navegación al pasar el ratón */
 .navbar-nav .nav-link:hover {
     color: #fff !important; /* Cambia el color del texto al pasar el ratón */
     background-color: #59A5D8; /* Cambia el color de fondo al pasar el ratón */
 }
-
