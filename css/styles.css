@@ -6,10 +6,9 @@ body {
     min-height: 100vh; /* Asegura que el contenido mínimo ocupe toda la altura de la vista */
 }
 
-/* Estilos para el encabezado principal */
-header.jumbotron {
-    margin-bottom: 0; /* Elimina el margen inferior del jumbotron */
-    background-color: #386FA4 !important; /* Color de fondo del encabezado */
+.banner img{
+    width: 100%;
+    height: 80%;
 }
 
 /* Estilos para la barra de navegación */
